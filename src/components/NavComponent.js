@@ -4,11 +4,11 @@ import Navbar from 'react-bootstrap/Navbar'
 const NavComponent = ({floor}) => {
   return (
     <div className="container">
-      <Navbar className="justify-content-end">
-        <Navbar.Brand>Floor Level: {floor}</Navbar.Brand>
+      <Navbar bg='transparent'>
+        <Navbar.Brand style={{color: '#fff'}}>Floor Selected: {floor}</Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
-          <Navbar.Text>
+          <Navbar.Text style={{color: '#fff'}}>
             By: Jonathan Almoradie
           </Navbar.Text>
         </Navbar.Collapse>

@@ -2,6 +2,12 @@
 
 const liftFloors = [
   {
+    name: '12'
+  },
+  {
+    name: '11'
+  },
+  {
     name: '10'
   },
   {
@@ -33,7 +39,7 @@ const liftFloors = [
   },
   {
     name: 'L'
-  },
+  }
 ]
 
 export default liftFloors;
